@@ -1,0 +1,482 @@
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 500px) {
+.top-header{
+    height:10vh;
+    font-size: 12px;
+    width: 100%;
+
+}
+.logo-section {
+    margin-bottom:50px ;
+    margin-left: -30px;
+   
+}
+
+.logo-section img{
+    width:100px;
+}
+.flex-item-left a{
+    
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.flex-item-left li{
+   width: 100%;
+   margin-left: 0;
+
+   
+}
+.flex-item-right li{
+
+ display: none;
+}
+
+.item-right{
+    width: 100%;
+    display: inline-flex;
+    font-size: 12px;
+    margin-top: -180px;
+    padding-left: 100px;
+    
+}
+
+.nav-menu{
+    display:none;
+}
+.banner-section{
+    width: 100%;
+}
+.centered{
+    width:50%;
+    font-size: 12px;
+}
+.centered h1{
+    font-size: 30px;
+   
+    margin-top: 200px;
+    
+}
+.bn-btn {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sg-facilities{
+    width: 100%;
+    font-size: 12px;
+    margin-left: -50px;
+}
+
+.sg-facilities img{
+    width: 250px;
+    margin-left: -10px;
+}
+
+.suspended{
+    width: 100%;
+}
+.heading h1{
+    width: 325px;
+    margin-left: 150px;
+}
+
+.heading p {
+    width: 325px;
+    margin-left: 150px;
+}
+
+.sd-heading h1,p{
+     width: 100%;
+     margin-left: 150px;
+}
+
+.suspended img{
+    width:250px;
+    margin-left: -20px;
+}
+
+.card-body-sus{
+    margin-left: -20px;
+}
+
+.review{
+    width: 100%;
+    height: 200vh;
+    margin-bottom: 50px;
+}
+.review-heading h1 {
+margin-left: -50px;
+font-size: 17px;
+}
+.review-heading p {
+    display: none;
+}
+.card-rew img{
+    width: 80px;
+    margin-left: 0px;
+    
+}
+
+.card-body-rew{
+    width: auto;
+   
+}
+.card-body-rew p{
+    height: 100vh;
+    margin-left: -15px;
+}
+.card-body-rew span, h4{
+    font-size:14px;
+}
+
+.latest-news{
+    width: 100%;
+}
+
+.latest-news img{
+    width: 250px;
+    margin-left: -70px;
+}
+
+
+.latest-news .card-body h2{
+    position: relative;
+    margin-left: -170px;
+    
+}
+
+.latest-news .card-body p{
+    width: 80%;
+    margin-left: -50px;
+}
+
+.btn-news{
+    margin-left: -20px;
+}
+
+.address{
+    width: 325px;
+    height: 150vh;
+}
+.address-heading{
+    clear: both;
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.address-heading p{
+    clear: both;
+    position: absolute;
+    width: 100%;
+    margin:20px;
+    margin-left: 0px;
+}
+.flex-container{
+    margin-top: 150px;
+    margin-left: 10px;
+    width: 100%;
+}
+.flex-container>div {
+    width: 100%;
+    height: 30vh;
+    
+    
+    margin-top: 10px;
+   
+}
+
+
+.footer .logo-footer {
+    width:100%;
+    margin-left:-50px;
+}
+
+.btmspace-15{
+    margin-left: -50px;
+    width: 80%;
+}
+.btmspace-15 .btn-footer {
+    margin-left: -150px;
+    
+}
+
+.copyright{
+    width: 325px;
+   
+    height: 5vh;
+    
+}
+.copyright p{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+.top-header {
+    height: 10vh;
+    font-size: 12px;
+  position: relative;
+    width: 100%;
+
+}
+
+.logo-section {
+    margin-bottom: 50px;
+    margin-left: -30px;
+    margin-top: 50px;
+    z-index: 2;
+    width: 100%;
+}
+
+.logo-section img {
+    width: 200px;
+}
+.flex-item-left{
+    position: relative;
+    margin-left: 10px;
+}
+.flex-item-left li {
+    
+    width: 10%;
+    
+   margin: 10px;
+   
+    position: relative;
+
+
+}
+span {
+    margin-left: -50px;
+}
+
+
+.flex-item-right li {
+
+    display: none;
+}
+
+.item-right {
+    width: 100%;
+    display: inline-flex;
+    font-size: 12px;
+    margin-top: -120px;
+    padding-left: 0px;
+
+}
+
+.nav-menu {
+    display: none;
+}
+
+.banner-section {
+    width: 100%;
+  
+}
+.banner-section img{
+    width: 100%;
+}
+.centered {
+    width: 50%;
+    
+      margin-top: 100;
+}
+
+.centered h1 {
+    font-size: 30px;
+
+    margin-top: 200px;
+
+}
+
+.centered p{
+    width: 100%;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.bn-btn {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.sg-facilities {
+    
+    font-size: 12px;
+    margin-left: -50px;
+}
+
+.sg-facilities .heading{
+    margin-left: -155px;
+    
+}
+
+
+.sg-facilities img {
+    width: 80%;
+    margin-left: -20px;
+}
+
+.sd-heading {
+    margin-left: -150px;
+    font-size:10px
+}
+
+.suspended img {
+    width: 80%;
+    margin-left: -30px;
+}
+
+.card-body-sus {
+    margin-left: -50px;
+    font-size:14px;
+}
+
+.review {
+   width: 100%;
+    height: 160vh;
+    margin-bottom: 50px;
+}
+
+.review-heading h1 {
+    margin-left: -50px;
+    font-size: 17px;
+}
+
+.review-heading p {
+    display: none;
+}
+
+.card-rew img {
+    width: 80px;
+    margin-left: 0px;
+
+}
+
+.card-body-rew {
+    width: auto;
+
+}
+
+.card-body-rew p {
+    height: 75vh;
+    margin-left: -15px;
+}
+
+.card-body-rew span,
+h4 {
+    font-size: 14px;
+}
+
+.latest-news {
+   width: 100%;
+}
+
+.latest-news img {
+    width: 100%;
+    margin-left: -70px;
+}
+
+
+.latest-news .card-body h2 {
+    position: relative;
+    margin-left: -170px;
+
+}
+
+.latest-news .card-body p {
+    width: 100%;
+    margin-left: -50px;
+}
+
+.btn-news {
+    margin-left: -20px;
+}
+
+.address {
+   width: 100%;
+    height: 180vh;
+}
+
+.address-heading {
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.flex-container {
+    margin-top: 150px;
+    margin-left: -30px;
+}
+
+.flex-container>div {
+    width: 100%;
+    height: 30vh;
+    margin-left: -80px;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.footer{
+   width: 100%;
+}
+.col-1 p{
+    margin-left: -50px;
+}
+.footer .logo-footer {
+    width: 100%;
+    margin-left: -50px;
+   
+}
+.logo-footer p{
+    margin-left: 0px;
+}
+.btmspace-15 {
+    margin-left: 0px;
+    width: 80%;
+}
+
+.btmspace-15 .btn-footer {
+    margin-left: -150px;
+
+}
+
+
+
+.copyright {
+    width: 100%;
+    height: 20vh;
+
+}
+
+.copyright p {
+    margin: 20px;
+}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    
+}
